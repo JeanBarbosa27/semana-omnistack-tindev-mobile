@@ -97,6 +97,8 @@ const styles = StyleSheet.create({
 });
 
 export default function Main({ navigation }) {
+  // TODO: [Exercício]: Fazer as tratativas para usar o socket io e exibir o it's a match aqui conforme feito no front
+
   const userId = navigation.getParam("userId");
   const [users, setUsers] = useState([]);
 
